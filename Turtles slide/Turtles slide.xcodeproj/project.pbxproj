@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D138349A21FDDBB0004EB491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138349921FDDBB0004EB491 /* AppDelegate.swift */; };
+		D138349F21FDDBB0004EB491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D138349D21FDDBB0004EB491 /* Main.storyboard */; };
+		D13834A121FDDBB1004EB491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13834A021FDDBB1004EB491 /* Assets.xcassets */; };
+		D13834A421FDDBB1004EB491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13834A221FDDBB1004EB491 /* LaunchScreen.storyboard */; };
+		D13834AF21FDDBB1004EB491 /* Turtles_slideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13834AE21FDDBB1004EB491 /* Turtles_slideTests.swift */; };
+		D13834BA21FDDBB1004EB491 /* Turtles_slideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13834B921FDDBB1004EB491 /* Turtles_slideUITests.swift */; };
+		D13834C821FDDBE6004EB491 /* turtle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D13834C721FDDBE6004EB491 /* turtle.jpg */; };
+		D13834CA21FDE005004EB491 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13834C921FDE005004EB491 /* FirstViewController.swift */; };
+		D13834CC21FDE017004EB491 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13834CB21FDE017004EB491 /* SecondViewController.swift */; };
+		D13834CE21FDE030004EB491 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13834CD21FDE030004EB491 /* MyTabBarViewController.swift */; };
+		D13834D221FDE06E004EB491 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13834D121FDE06E004EB491 /* MyTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D13834AB21FDDBB1004EB491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D138348E21FDDBB0004EB491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D138349521FDDBB0004EB491;
+			remoteInfo = "Turtles slide";
+		};
+		D13834B621FDDBB1004EB491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D138348E21FDDBB0004EB491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D138349521FDDBB0004EB491;
+			remoteInfo = "Turtles slide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D138349621FDDBB0004EB491 /* Turtles slide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turtles slide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D138349921FDDBB0004EB491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D138349E21FDDBB0004EB491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D13834A021FDDBB1004EB491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D13834A321FDDBB1004EB491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D13834A521FDDBB1004EB491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13834AA21FDDBB1004EB491 /* Turtles slideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turtles slideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13834AE21FDDBB1004EB491 /* Turtles_slideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtles_slideTests.swift; sourceTree = "<group>"; };
+		D13834B021FDDBB1004EB491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13834B521FDDBB1004EB491 /* Turtles slideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turtles slideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13834B921FDDBB1004EB491 /* Turtles_slideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtles_slideUITests.swift; sourceTree = "<group>"; };
+		D13834BB21FDDBB1004EB491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13834C721FDDBE6004EB491 /* turtle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtle.jpg; sourceTree = "<group>"; };
+		D13834C921FDE005004EB491 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D13834CB21FDE017004EB491 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D13834CD21FDE030004EB491 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
+		D13834D121FDE06E004EB491 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D138349321FDDBB0004EB491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13834A721FDDBB1004EB491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13834B221FDDBB1004EB491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D138348D21FDDBB0004EB491 = {
+			isa = PBXGroup;
+			children = (
+				D138349821FDDBB0004EB491 /* Turtles slide */,
+				D13834AD21FDDBB1004EB491 /* Turtles slideTests */,
+				D13834B821FDDBB1004EB491 /* Turtles slideUITests */,
+				D138349721FDDBB0004EB491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D138349721FDDBB0004EB491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D138349621FDDBB0004EB491 /* Turtles slide.app */,
+				D13834AA21FDDBB1004EB491 /* Turtles slideTests.xctest */,
+				D13834B521FDDBB1004EB491 /* Turtles slideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D138349821FDDBB0004EB491 /* Turtles slide */ = {
+			isa = PBXGroup;
+			children = (
+				D13834C721FDDBE6004EB491 /* turtle.jpg */,
+				D138349921FDDBB0004EB491 /* AppDelegate.swift */,
+				D138349D21FDDBB0004EB491 /* Main.storyboard */,
+				D13834A021FDDBB1004EB491 /* Assets.xcassets */,
+				D13834A221FDDBB1004EB491 /* LaunchScreen.storyboard */,
+				D13834A521FDDBB1004EB491 /* Info.plist */,
+				D13834C921FDE005004EB491 /* FirstViewController.swift */,
+				D13834CB21FDE017004EB491 /* SecondViewController.swift */,
+				D13834CD21FDE030004EB491 /* MyTabBarViewController.swift */,
+				D13834D121FDE06E004EB491 /* MyTableViewCell.swift */,
+			);
+			path = "Turtles slide";
+			sourceTree = "<group>";
+		};
+		D13834AD21FDDBB1004EB491 /* Turtles slideTests */ = {
+			isa = PBXGroup;
+			children = (
+				D13834AE21FDDBB1004EB491 /* Turtles_slideTests.swift */,
+				D13834B021FDDBB1004EB491 /* Info.plist */,
+			);
+			path = "Turtles slideTests";
+			sourceTree = "<group>";
+		};
+		D13834B821FDDBB1004EB491 /* Turtles slideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D13834B921FDDBB1004EB491 /* Turtles_slideUITests.swift */,
+				D13834BB21FDDBB1004EB491 /* Info.plist */,
+			);
+			path = "Turtles slideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D138349521FDDBB0004EB491 /* Turtles slide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13834BE21FDDBB1004EB491 /* Build configuration list for PBXNativeTarget "Turtles slide" */;
+			buildPhases = (
+				D138349221FDDBB0004EB491 /* Sources */,
+				D138349321FDDBB0004EB491 /* Frameworks */,
+				D138349421FDDBB0004EB491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turtles slide";
+			productName = "Turtles slide";
+			productReference = D138349621FDDBB0004EB491 /* Turtles slide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D13834A921FDDBB1004EB491 /* Turtles slideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13834C121FDDBB1004EB491 /* Build configuration list for PBXNativeTarget "Turtles slideTests" */;
+			buildPhases = (
+				D13834A621FDDBB1004EB491 /* Sources */,
+				D13834A721FDDBB1004EB491 /* Frameworks */,
+				D13834A821FDDBB1004EB491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13834AC21FDDBB1004EB491 /* PBXTargetDependency */,
+			);
+			name = "Turtles slideTests";
+			productName = "Turtles slideTests";
+			productReference = D13834AA21FDDBB1004EB491 /* Turtles slideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D13834B421FDDBB1004EB491 /* Turtles slideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13834C421FDDBB1004EB491 /* Build configuration list for PBXNativeTarget "Turtles slideUITests" */;
+			buildPhases = (
+				D13834B121FDDBB1004EB491 /* Sources */,
+				D13834B221FDDBB1004EB491 /* Frameworks */,
+				D13834B321FDDBB1004EB491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13834B721FDDBB1004EB491 /* PBXTargetDependency */,
+			);
+			name = "Turtles slideUITests";
+			productName = "Turtles slideUITests";
+			productReference = D13834B521FDDBB1004EB491 /* Turtles slideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D138348E21FDDBB0004EB491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Георгий Розовский";
+				TargetAttributes = {
+					D138349521FDDBB0004EB491 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D13834A921FDDBB1004EB491 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D138349521FDDBB0004EB491;
+					};
+					D13834B421FDDBB1004EB491 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D138349521FDDBB0004EB491;
+					};
+				};
+			};
+			buildConfigurationList = D138349121FDDBB0004EB491 /* Build configuration list for PBXProject "Turtles slide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D138348D21FDDBB0004EB491;
+			productRefGroup = D138349721FDDBB0004EB491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D138349521FDDBB0004EB491 /* Turtles slide */,
+				D13834A921FDDBB1004EB491 /* Turtles slideTests */,
+				D13834B421FDDBB1004EB491 /* Turtles slideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D138349421FDDBB0004EB491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13834A421FDDBB1004EB491 /* LaunchScreen.storyboard in Resources */,
+				D13834C821FDDBE6004EB491 /* turtle.jpg in Resources */,
+				D13834A121FDDBB1004EB491 /* Assets.xcassets in Resources */,
+				D138349F21FDDBB0004EB491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13834A821FDDBB1004EB491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13834B321FDDBB1004EB491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D138349221FDDBB0004EB491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13834CE21FDE030004EB491 /* MyTabBarViewController.swift in Sources */,
+				D13834CC21FDE017004EB491 /* SecondViewController.swift in Sources */,
+				D138349A21FDDBB0004EB491 /* AppDelegate.swift in Sources */,
+				D13834CA21FDE005004EB491 /* FirstViewController.swift in Sources */,
+				D13834D221FDE06E004EB491 /* MyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13834A621FDDBB1004EB491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13834AF21FDDBB1004EB491 /* Turtles_slideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13834B121FDDBB1004EB491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13834BA21FDDBB1004EB491 /* Turtles_slideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D13834AC21FDDBB1004EB491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D138349521FDDBB0004EB491 /* Turtles slide */;
+			targetProxy = D13834AB21FDDBB1004EB491 /* PBXContainerItemProxy */;
+		};
+		D13834B721FDDBB1004EB491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D138349521FDDBB0004EB491 /* Turtles slide */;
+			targetProxy = D13834B621FDDBB1004EB491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D138349D21FDDBB0004EB491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D138349E21FDDBB0004EB491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D13834A221FDDBB1004EB491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13834A321FDDBB1004EB491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D13834BC21FDDBB1004EB491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D13834BD21FDDBB1004EB491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D13834BF21FDDBB1004EB491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Turtles slide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrrozya.Turtles-slide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D13834C021FDDBB1004EB491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Turtles slide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrrozya.Turtles-slide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D13834C221FDDBB1004EB491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Turtles slideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrrozya.Turtles-slideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turtles slide.app/Turtles slide";
+			};
+			name = Debug;
+		};
+		D13834C321FDDBB1004EB491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Turtles slideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrrozya.Turtles-slideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turtles slide.app/Turtles slide";
+			};
+			name = Release;
+		};
+		D13834C521FDDBB1004EB491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Turtles slideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrrozya.Turtles-slideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Turtles slide";
+			};
+			name = Debug;
+		};
+		D13834C621FDDBB1004EB491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Turtles slideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rrrozya.Turtles-slideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Turtles slide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D138349121FDDBB0004EB491 /* Build configuration list for PBXProject "Turtles slide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13834BC21FDDBB1004EB491 /* Debug */,
+				D13834BD21FDDBB1004EB491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13834BE21FDDBB1004EB491 /* Build configuration list for PBXNativeTarget "Turtles slide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13834BF21FDDBB1004EB491 /* Debug */,
+				D13834C021FDDBB1004EB491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13834C121FDDBB1004EB491 /* Build configuration list for PBXNativeTarget "Turtles slideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13834C221FDDBB1004EB491 /* Debug */,
+				D13834C321FDDBB1004EB491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13834C421FDDBB1004EB491 /* Build configuration list for PBXNativeTarget "Turtles slideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13834C521FDDBB1004EB491 /* Debug */,
+				D13834C621FDDBB1004EB491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D138348E21FDDBB0004EB491 /* Project object */;
+}
