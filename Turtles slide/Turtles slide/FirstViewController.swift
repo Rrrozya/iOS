@@ -32,7 +32,10 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         cell.animateTurtle()
     }
     
+    
+    
     @IBAction func startAll(_ sender: UIButton) {
+        myTableView.reloadData()
         let tableview = myTableView as UITableView
         let index = IndexPath(row: 0, section: 0)
         let cell = tableview.cellForRow(at: index) as! MyTableViewCell

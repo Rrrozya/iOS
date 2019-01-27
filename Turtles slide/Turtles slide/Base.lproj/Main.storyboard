@@ -56,7 +56,9 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="RWP-FJ-KR7" firstAttribute="top" secondItem="SIP-Va-7uM" secondAttribute="top" id="7h3-bh-1mv"/>
+                                                <constraint firstAttribute="bottom" secondItem="RWP-FJ-KR7" secondAttribute="bottom" constant="-0.5" id="GtE-AO-yt7"/>
                                                 <constraint firstItem="RWP-FJ-KR7" firstAttribute="leading" secondItem="SIP-Va-7uM" secondAttribute="leading" id="IuZ-3z-QqB"/>
+                                                <constraint firstItem="RWP-FJ-KR7" firstAttribute="top" secondItem="SIP-Va-7uM" secondAttribute="top" id="gyS-tx-Vp9"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -65,6 +67,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="r6a-yC-wnH" id="R99-mq-2V5"/>
+                                    <outlet property="delegate" destination="r6a-yC-wnH" id="zyg-VM-bmQ"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SM-ca-WOl">
                                 <rect key="frame" x="0.0" y="525" width="167" height="93"/>
